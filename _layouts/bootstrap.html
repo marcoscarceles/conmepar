@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Conmepar SL Cerrajeria Carpinteria Metalica y en Aluminio">
     <meta name="author" content="Enrique Larra&ntilde;ga Diaz">
-    <meta name="keywords" content="Cerrajeria,Carpinteria,Ventanas,Aluminio,Madrid,Zona Norte,Daganzo,Alcobendas">
+    <meta name="keywords" content="Cerrajeria,Carpinteria Metalica,Ventanas,Aluminio,Estructuras,Comunidad de Madrid,Madrid,Zona Norte,Daganzo,Alcobendas">
     <meta name="google-site-verification" content="JAxKU4S-7kg0BYx17tMSWAo6-tfVCx0HLn1Z9E4hVJQ" />
 
     <title>{{ page.title }}</title>
@@ -23,39 +23,62 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/custom.css">
 
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
+      <div class="navbar-wrapper">
+        <div class="container">
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">(Des)activar Navegacion</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Conmepar</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Principal</a></li>
-                <li><a href="carpinteria-metalica-aluminio.html">Carpinteria Met&aacute;lica y de Aluminio</a></li>
-                <li><a href="cerrajeria.html">Cerrajer&iacute;a</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-              </ul>
+          <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">(Des)activar Navegacion</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" itemprop="name">Conmepar</a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Principal</a></li>
+                  <li><a href="carpinteria-metalica-aluminio.html">Carpinteria Met&aacute;lica y de Aluminio</a></li>
+                  <li><a href="cerrajeria.html">Cerrajer&iacute;a</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contacto<b class="caret"></b></a>
+                    <ul class="dropdown-menu" itemprop="address">
+                      <li><span>Tel&eacute;fono: <span itemprop="telephone"><a href="tel:+34652839349">
+  +34 652 83 93 49</a></span><span></li>
+                        <li><span itemprop="streetAddress">Camino Ancho 65, Nave 11B<span></li>
+                        <li><span itemprop="addressLocality">Daganzo de Arriba</span></li>
+                        <li><span itemprop="postalCode">28814</span></li>
+                        <li><span itemprop="addressRegion">Comunidad de Madrid</span></li>
+                      <li class="divider"></li>
+                      <li><a href="contacto.html">Mas detalles</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
+    {{content}}
+
+    <div class="container">
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Ir al principio</a></p>
+        <p>&copy; 2014 Conmepar, SL &middot; <a href="mailto:webmaster@conmepar.com">webmaster@conmepar.com</a></p>
+      </footer>
     </div>
 
-    {{content}}
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

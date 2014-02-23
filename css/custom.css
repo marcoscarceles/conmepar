@@ -1,9 +1,7 @@
-.carousel-caption {
-	background-color: #000;
-	opacity: 0.8;
-	filter:alpha(opacity=80); /* For IE8 and earlier */
-}
-
-.wide-header {
-	text-align: center;
-}
+.carousel-caption {background-color: #000;opacity: 0.8;filter:alpha(opacity=80);padding:20px;}
+.wide-header {text-align: center;}
+.suppliers {list-style-type: none;padding: 0;}
+.teaser-body {min-height:140px;}
+/* BOOSTRAP CUSTOM */
+.dropdown-menu {min-width: 240px;}
+.dropdown-menu>li>span {padding: 3px 20px;}
